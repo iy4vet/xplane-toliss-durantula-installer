@@ -1,0 +1,28 @@
+# Python cache
+**/__pycache__/
+
+# Python/Conda environments
+**/.venv/
+**/conda/
+**/.conda/
+
+# VS Code settings
+**/.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PyInstaller build output
+build/
+dist/
+*.spec
+
+# Local reference material (mod download + real ToLiss aircraft for testing) -
+# not part of the installer and many GB in size; keep out of the repo.
+assets/
+vanilla*/
+Airbus A3*/
+*.acf
+*.acf.bak
